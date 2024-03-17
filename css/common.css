@@ -91,3 +91,46 @@ h1 {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+.login-form {
+  margin: auto;
+  max-width: 408px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-form button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 8px 16px;
+  background-color: #007bff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
